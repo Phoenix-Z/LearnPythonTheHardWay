@@ -12,6 +12,7 @@ class Song(object):
 			print line
 
 #将list作为一个对象传入容易理解，但是怎么和lyrics变量联系上的呢？	
+#正如上面所言，__init__函数相当于构造器，因此，这里传入的list不是针对object，而是针对lyrics
 happy_bday = Song(["Happy birthday to you",
 					"I don't want to get sued",
 					"So I'll stop right there"])
