@@ -4,7 +4,7 @@ import re  #导入正则表达式，用于判断是否是数字
 #将预留字以list形式保存，注意不要漏掉了双引号
 directions = ["north", "south", "east", "west", "down", "up", "left", "right", "back"]
 verbs = ["go", "stop", "kill", "eat"]
-stops = ["the", "in", "of", "form", "at", "it"]
+stops = ["the", "in", "of", "form", "at", "it", "a"]
 nouns = ["door", "bear", "princess", "cabinet"]
 
 def scan(input):
