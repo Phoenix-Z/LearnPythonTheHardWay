@@ -1,0 +1,17 @@
+<!-- 下面这行告诉这个模板需要传入一个叫做greeting的参数 -->
+$def with (greeting)
+
+<html>
+	<head>
+		<title>Gothons of Planet Percal #25</title>
+	</head>
+<body>
+
+$if greeting:
+	I just wanted to say <em style = "color: green; font-size: 2em;">$greeting</em>.
+	
+$else:
+	<em>Hello</em>, world!
+	
+</body>	
+</html>
