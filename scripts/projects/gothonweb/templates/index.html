@@ -1,17 +1,10 @@
-<!-- 下面这行告诉这个模板需要传入一个叫做greeting的参数 -->
 $def with (greeting)
-
-<html>
-	<head>
-		<title>Gothons of Planet Percal #25</title>
-	</head>
-<body>
+<!-- 上面这行告诉这个模板需要传入一个叫做greeting的参数,注意第一行必须是那个，不然会报错 -->
 
 $if greeting:
 	I just wanted to say <em style = "color: green; font-size: 2em;">$greeting</em>.
-	
+	<br/>
+	<a href = "/hello">once again</a>
 $else:
 	<em>Hello</em>, world!
 	
-</body>	
-</html>
